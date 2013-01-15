@@ -1,0 +1,21 @@
+<form action="./" name="loginform" method="post">
+{token form}
+<input type="hidden" name="page"     value="login" />
+<input type="hidden" name="lastpage" value="./" />
+
+<label for="'.LOGIN_FORM_USERNAME.'">Username:&nbsp;</label></td>
+<input type="text"  name="'.LOGIN_FORM_USERNAME.'" value="" class="input" size="30" tabindex="1" id="'.LOGIN_FORM_USERNAME.'" /></td>
+
+
+<label    for="'.LOGIN_FORM_PASSWORD.'">Password:&nbsp;</label></td>
+<input type="password" name="'.LOGIN_FORM_PASSWORD.'" value="" class="input" size="30" tabindex="2" id="'.LOGIN_FORM_PASSWORD.'" /></td>
+<input type="submit" name="Submit" value="Submit" class="btn btn-primary" tabindex="3" style="margin-left: 10px;" />
+<br>
+<br>
+</form>
+<script type="text/javascript">
+function formfocus() {
+  document.getElementById(\''.LOGIN_FORM_USERNAME.'\').focus();
+}
+window.onload = formfocus;
+</script>
