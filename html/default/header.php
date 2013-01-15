@@ -29,6 +29,7 @@ $output.='
 
 {AddToHeader}
 </head>
+<<<<<<< HEAD
 <div class="navbar">
   <div class="navbar-inner">
     <a class="brand" href="#">WebAuction++</a>
@@ -40,6 +41,16 @@ $output.='
     </ul>
   </div>
 </div>
+=======
+<br>
+<ul allign="right" class="nav nav-pills">
+<li class="active" allign="right"><a href="http://go.craftitserver.com/auction">Home</a></li>
+<li class="active" allign="right"><a href="./?page=myitems">My Items</a></li>
+<li class="active" allign="right"><a href="./?page=myauctions">My Auctions</a></li>
+<li allign="right"><a href="#login">Login</a></li>
+<li allign="right"><a href="./?page=logout{token}">Logout</a></li>
+</ul>
+>>>>>>> 8856a17cfc5adfa278bf800d4b16e6a31ef19e38
 <body>
 ';
 
@@ -63,6 +74,7 @@ case 'default':
 </center>
 {else}
 
+<<<<<<< HEAD
 
 <script type="text/javascript" language="javascript">// <![CDATA[
 function showHide() {
@@ -78,6 +90,8 @@ function showHide() {
 <center>
 </center>
 <div id="showHideDiv" style="display:none;">
+=======
+>>>>>>> 8856a17cfc5adfa278bf800d4b16e6a31ef19e38
 <center>
 <form action="./" name="loginform" method="post" id="login">
 {token form}
@@ -91,8 +105,14 @@ function showHide() {
 <label    for="'.LOGIN_FORM_PASSWORD.'">Password:&nbsp;</label></td>
 <input type="password" name="'.LOGIN_FORM_PASSWORD.'" value="" class="input" size="30" tabindex="2" id="'.LOGIN_FORM_PASSWORD.'" /></td>
 <br>
+<<<<<<< HEAD
 <input type="submit" name="Submit" value="Submit" class="btn btn-primary" data-loading-text="Logging in..." />
 
+=======
+<input type="submit" name="Submit" value="Submit" class="btn btn-primary" />
+<br>
+<br>
+>>>>>>> 8856a17cfc5adfa278bf800d4b16e6a31ef19e38
 </form>
 <script type="text/javascript">
 function formfocus() {
@@ -100,7 +120,11 @@ function formfocus() {
 }
 window.onload = formfocus;
 </script>
+<<<<<<< HEAD
 </div>
+=======
+
+>>>>>>> 8856a17cfc5adfa278bf800d4b16e6a31ef19e38
 </center>
 <br>
 <br>
