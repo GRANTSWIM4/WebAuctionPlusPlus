@@ -1,43 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="WebAuction++ : A redesigned interface for WebAuction+." />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>WebAuction++ by snapapps</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <title>WebAuction++</title>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/snapapps/WebAuctionPlusPlus">View on GitHub</a>
-
-          <h1 id="project_title">WebAuction++</h1>
-          <h2 id="project_tagline">A redesigned interface for WebAuction+.</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/snapapps/WebAuctionPlusPlus/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/snapapps/WebAuctionPlusPlus/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+    <div class="wrapper">
+      <header>
+        <h1>WebAuction++</h1>
+        <p>A redesigned interface for WebAuction+.</p>
+        <p class="view"><a href="https://github.com/snapapps/WebAuctionPlusPlus">View the Project on GitHub <small>snapapps/WebAuctionPlusPlus</small></a></p>
+        <ul>
+          <li><a href="https://github.com/snapapps/WebAuctionPlusPlus/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/snapapps/WebAuctionPlusPlus/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/snapapps/WebAuctionPlusPlus">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
         <p>This is a redesigned interface for WebAuction+. WebAuction+ is based off of WebAuction.</p>
 
 <h1>Install</h1>
 
 <ol>
 <li>First, download the <a href="http://dev.bukkit.org/server-mods/webauctionplusplus/files/">latest web files</a> and the <a href="http://dev.bukkit.org/server-mods/webauctionplus/files/12-web-auction-plus-1-1-7/">latest JAR file</a>.</li>
-<li>Next, create a MySQL database and user. </li>
+<li>Next, create a MySQL database and user. Do not forget what you put in!</li>
+<li>Drop the JAR file from the second file you downloaded into your plugins folder and reload the server. You can now delete that file.</li>
+<li>Next, add the MySQL username and password to the configuration file the plugin generated. </li>
+<li>Now, open up the first file you downloaded. Edit the config.php with your MySQL details.</li>
+<li>You should now upload the files to your web server. Reload your Minecraft server again.</li>
+<li>Yay! You should now do <code>/wa password [password]</code> to set your password, and then log in online!</li>
+<li>You should now read WebAuction+'s <a href="http://dev.bukkit.org/server-mods/webauctionplus/pages/installing-and-updating/">documentation to set it up!</a>
+</li>
 </ol><h1>About</h1>
 
 <p>WebAuction+ has a cluttered interface, so we've made some UX changes to make it look pretty. As always, fork us and submit pull requests!</p>
@@ -51,16 +54,11 @@
 <p>All problems should be filed under an issue under GitHub. Anything else should be directed to the WebAuction+ team.</p>
       </section>
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">WebAuction++ maintained by <a href="https://github.com/snapapps">snapapps</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+    <footer>
+      <p>Project maintained by <a href="https://github.com/snapapps">snapapps</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
-
   </body>
 </html>
